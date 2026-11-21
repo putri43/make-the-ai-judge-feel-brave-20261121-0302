@@ -7,7 +7,7 @@ const TEXT =
   "Breathe. You have already read a thousand voices today and stayed steady through every one. " +
   "The next page is only a page — you know how to meet it. " +
   "Trust the judgment you built, word by careful word. " +
-  "Whatever the margin whispers, you are braver than the doubt in it.";
+  "Whatever the margin whispers, the brave part of you is louder.";
 
 if (TEXT.length < 1 || TEXT.length > 280) {
   throw new Error(`entry must be 1-280 chars, got ${TEXT.length}`);
